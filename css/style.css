@@ -1,0 +1,700 @@
+@import 'fonts.css';
+
+:root {
+    --r-bold: 'Roboto-Bold';
+    --r-light: 'Roboto-Light';
+    --r-medium: 'Roboto-Medium';
+    --r-regular: 'Roboto-Regular';
+    --r-thin: 'Roboto-Thin';
+    --black: #000000;
+    --grey: #999999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row-ml {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-pd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ********************************************************************************* */
+/* header start */
+header {
+    background: #f3f4f9;
+    margin-bottom: 124px
+}
+
+header .menu .navbar-brand {
+    color: black;
+    font-size: 20px;
+    font-family: var(--r-bold);
+}
+
+header .menu .header_nav-link {
+    color: black;
+    font-size: 16px;
+    font-family: var(--r-regular);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    padding: 5px 5px;
+    transition: 0.2s;
+}
+
+header .menu .header_nav-link:hover {
+    color: blue;
+    outline: 5px solid blue;
+    outline-style: double;
+}
+
+header .sumka .bug {
+    position: relative;
+}
+
+header .sumka img {
+    width: 100%;
+}
+
+header .sumka .img_box {
+    padding: 143px 0 60px 0;
+}
+
+header .sumka .text {
+    padding: 263px 261px 254px 50px;
+}
+
+header .sumka .text h2 {
+    font-family: var(--r-bold);
+    color: black;
+    font-size: 45px;
+}
+
+header .sumka .text p {
+    padding-top: 34px;
+    padding-bottom: 60px;
+    font-size: 21px;
+    color: black;
+    font-family: var(--r-regular);
+}
+
+header .sumka .text button {
+    padding: 5px 15px;
+    font-size: 21px;
+    font-family: var(--r-bold);
+    color: white;
+    text-transform: uppercase;
+    background: blue;
+    border: 2px dotted blue;
+    transition: all 0.5s ease;
+}
+
+header .sumka .text button:hover {
+    border-radius: 40px;
+}
+
+
+/* header end */
+/* ********************************************************* */
+/* main start */
+
+main .container .row h2 {
+    font-size: 42px;
+    font-family: var(--r-bold);
+    margin-bottom: 120px;
+}
+
+main .container .row .welcome {
+    font-size: 14px;
+    font-family: var(--r-regular);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 36px;
+}
+
+main .container .row .text h5 {
+    font-size: 20px;
+    font-family: var(--r-bold);
+    margin-bottom: 0;
+}
+
+main .container .row .text p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #a1a1a1;
+}
+
+main .container .row .text {
+    padding-left: 30px;
+}
+
+main .container .Best {
+    padding-top: 140px;
+    margin-bottom: 0 !important;
+}
+
+main .container .best_p {
+    font-size: 16px;
+    font-family: var(--r-regular);
+    padding-top: 30px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+
+/* main end */
+/* *************************************************************** */
+/********************************* section start *****************************************/
+
+
+section .container .row .box img {
+    width: 100%;
+    object-position: cover;
+}
+
+section .container .row .box {
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+}
+
+section .container .row .box a {
+    position: absolute;
+    width: 100%;
+    background: rgba(57, 54, 57, 0.85);
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: white;
+    font-family: var(--r-regular);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+section .container .row .box:hover a {
+    opacity: 1;
+}
+
+section .container .row p {
+    font-size: 19px;
+    font-family: var(--r-regular);
+    font-weight: 600;
+    padding-top: 35px;
+    margin-right: 35px;
+    padding-bottom: 70px;
+}
+
+/* ************************************************************************ */
+/* section .section_footer  start */
+
+section .section_footer input {
+    width: 100%;
+    padding: 20px 0 20px 35px;
+    outline: none;
+    border: none;
+    background: #f0f0f0;
+    font-size: 20px;
+    color: black;
+}
+
+section .section_footer button {
+    padding: 23px 35px;
+    font-size: 14px;
+    font-family: var(--r-regular);
+    text-transform: uppercase;
+    color: white;
+    background: #110e0f;
+}
+
+section .section_footer .left {
+    margin-left: 25px;
+}
+
+section .section_footer h2 {
+    padding-top: 100px;
+    font-size: 42px;
+    font-family: var(--r-bold);
+    font-weight: 700;
+}
+
+section .section_footer p {
+    font-size: 19px;
+    font-family: var(--r-regular);
+}
+
+
+section {
+    margin-bottom: 126px;
+}
+
+
+/* ********************************************** */
+/* footer start */
+
+footer{
+    background: black;
+}
+footer .footer_bar{
+    padding: 100px 0;
+}
+footer .footer_bar h3{
+    font-size: 25px;
+    font-family: var(--r-bold);
+    color: white;
+}
+footer .footer_bar p{
+    color: white;
+    font-size: 18px;
+    font-family: var(--r-regular);
+    padding-top: 53px;
+}
+footer .footer_bar ul{
+    list-style: none;
+   padding-left: 0;
+   padding-top: 53px;
+}
+footer .footer_bar ul li{
+    padding-bottom: 15px;
+}
+footer .footer_bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: var(--r-regular);
+}
+footer .footer_bar .icon{
+    padding-top: 50px;
+}
+footer .footer_bar .icon i{
+    color: #d6a650;
+    font-size: 20px;
+}
+footer .footer_bar .icon a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: var(--r-regular);
+    color: white;
+}
+
+
+
+
+/* ************************************************************************************************ */
+/* ******************************MEDIA*************************************** */
+
+@media (max-width:1024px) {
+
+    header .sumka .text {
+        padding: 164px 45px 155px 32px;
+    }
+
+    section .section_footer button {
+        padding: 11px 35px;
+    }
+
+}
+
+@media (max-width:991px) {
+    header .sumka .text {
+        padding: 170px 100px 120px 10px;
+    }
+
+    main .container .row h2 {
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+
+    main .container .row .welcome {
+        padding-bottom: 0;
+    }
+
+    main .container .row .text p {
+        padding-top: 0;
+        font-size: 11px;
+    }
+
+    main .container .row .text {
+        padding-left: 20px;
+    }
+
+    main .container .Best {
+        padding-top: 80px;
+    }
+
+    section .container .row p {
+        font-size: 13px;
+    }
+
+    section .section_footer .left {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    section .section_footer button {
+        width: 100%;
+    }
+    .footer_bar .row{
+        justify-content: space-between !important;
+    }
+}
+
+@media (max-width:890px) {
+    header .sumka .text {
+        padding: 76px 41px 120px 10px;
+    }
+
+    header .sumka .text p {
+        padding-top: 23px;
+        padding-bottom: 31px;
+    }
+
+    header .sumka .img_box {
+        padding: 58px 0 60px 0;
+    }
+
+}
+
+@media (max-width:768px) {
+    header .sumka .text {
+        padding: 59px 29px 120px 10px;
+    }
+
+    header .sumka .text p {
+        padding-top: 10px;
+        padding-bottom: 26px;
+        margin-bottom: 0;
+    }
+
+    header .sumka .img_box {
+        padding: 19px 0 0px 0;
+    }
+
+    header .sumka .text h2 {
+        font-size: 30px;
+    }
+
+    header .sumka .text p {
+        font-size: 17px;
+    }
+
+    header .sumka .text button {
+        font-size: 14px;
+    }
+
+    section .container .row p {
+        padding-top: 20px;
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top {
+        padding: 10px 0;
+    }
+    footer .footer_bar .icon a {
+        padding-left: 0;
+        font-size: 14px;  
+    }
+    footer .footer_bar ul li a {
+        font-size: 15px;
+    }
+    footer .footer_bar ul {
+        padding-top: 20px;
+    }
+    footer .footer_bar .icon {
+        padding-top: 20px;
+    }
+    footer .footer_bar .icon i {
+        font-size: 14px;
+    }
+    
+}
+
+
+@media (max-width:575px) {
+    header .sumka .img_box {
+        padding: 19px 0 0px 137px;
+    }
+
+    header .sumka img {
+        width: 65%;
+    }
+
+    header .sumka .text {
+        padding: 30px 29px 42px 10px;
+    }
+    
+    
+}
+
+@media (max-width:540px) {
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width:481px) {
+    main .container .row .text {
+        padding-left: 5px;
+    }
+
+    .text p {
+        font-size: 10px;
+    }
+
+    main .container .row .text h5 {
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media (max-width:455px) {
+    header .sumka .text {
+        text-align: center;
+    }
+
+    header .sumka .text h2 {
+        font-size: 20px;
+    }
+
+    header .sumka .text p {
+        padding-top: 0;
+        padding-bottom: 26px;
+    }
+}
+
+@media (max-width:411px) {
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+
+}
+
+@media (max-width:414px) {
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width:400px) {
+    header .sumka .img_box {
+        padding: 19px 0 0px 89px;
+    }
+
+    header .sumka .text {
+        padding: 30px 0 42px 0;
+    }
+}
+
+@media (max-width:375px) {
+    header {
+        margin-bottom: 50px;
+    }
+
+    main .container .row h2 {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    main .container .Best {
+        padding-top: 50px;
+    }
+
+    main .container .best_p {
+        padding-top: 20px;
+    }
+
+    section .section_footer h2 {
+        padding-top: 70px;
+        font-size: 32px;
+
+    }
+    footer .footer_bar h3 {
+        font-size: 17px;
+    }
+    footer .footer_bar ul li a {
+        font-size: 11px;
+    }
+    footer .footer_bar ul {
+        padding-top: 0;
+    }
+    footer .footer_bar ul li {
+        padding-bottom: 0;
+    }
+    footer .footer_bar p {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    footer .footer_bar {
+        padding: 50px 0;
+    }
+    .center{
+        text-align: center;
+    }
+    footer .footer_bar h3 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:360px) {
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width:320px) {
+    main .container .row h2 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width:306px) {
+    header .sumka .text p {
+        font-size: 12px;
+    }
+
+    header .sumka .img_box {
+        padding: 19px 0 0px 77px;
+    }
+
+    header .sumka .text {
+        padding: 30px 0 30px 0;
+    }
+
+}
+
+@media (max-width:280px) {
+    header .sumka .text h2 {
+        font-size: 17px;
+    }
+
+    main .container .row h2 {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    header .menu .header_nav-link {
+        margin-left: 10px;
+    }
+
+    main .container .Best {
+        padding-top: 40px;
+    }
+
+    main .container .best_p {
+        padding-top: 10px;
+    }
+
+    section .container .row .box {
+        margin-right: 0;
+    }
+
+    section .container .row p {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+    section .section_footer h2 {
+        padding-top: 50px;
+        font-size: 23px;
+    }
+
+    section .container .row p {
+        padding-top: 0;
+    }
+    footer .footer_bar p {
+        font-size: 10px;
+    }
+}

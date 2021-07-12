@@ -1,0 +1,265 @@
+@import 'fonts.css';
+
+:root {
+    --r-bold: 'Roboto-Bold';
+    --r-light: 'Roboto-Light';
+    --r-medium: 'Roboto-Medium';
+    --r-regular: 'Roboto-Regular';
+    --r-thin: 'Roboto-Thin';
+    --black: #000000;
+    --grey: #999999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row-ml {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-pd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ********************************************* */
+/* header start */
+header .menu .about_nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--r-regular);
+    color: black;
+    margin-right: 60px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+header .menu .about_nav-link:hover {
+    border-bottom: 2px solid black;
+}
+
+header .menu .navbar-brand {
+    font-size: 20px;
+    font-family: var(--r-bold);
+    font-weight: 800;
+}
+
+header .text {
+    padding: 200px 0 160px 0;
+    background: url(https://www.quadraquest.com/assets/images/digital-marketing.jpg) no-repeat center center / cover;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 124px;
+}
+
+header .text span {
+    width: 3px;
+    height: 22px;
+    background: black;
+    transform: rotate(30deg);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header .text h1 {
+    font-size: 42px;
+    font-family: var(--r-bold);
+    padding-bottom: 60px;
+    color: black;
+}
+
+header .text p {
+    font-size: 20px;
+    font-family: var(--r-bold);
+    color: white;
+}
+
+/* header end */
+/* ************************************************ */
+/* main__address start */
+.text{
+    padding-right: 100px;
+}
+.main__address-h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--r-bold);
+    margin-bottom: 40px;
+}
+.main__address-p{
+    font-size: 16px;
+    color: #787878;
+    font-family: var(--r-regular);
+}
+.main__address-information{
+    padding-top: 40px;
+}
+.main__address-information span{
+    font-size: 20px;
+    font-family: var(--r-bold);
+    font-weight: 600;
+    color: black;
+    margin-right: 20px;
+}
+.main__address-information h4{
+    padding-bottom: 25px;
+    color: #787878;
+    font-family: var(--r-regular);
+    font-size: 18px;
+}
+.main__address input, textarea{
+    width: 100%;
+    padding: 17px 0 17px 15px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: black;
+    background: #f5f5f5;
+}
+.main__address button{
+    padding: 22px 24px;
+    background: #007d2f;
+    color: white;
+    font-family: var(--r-regular);
+    text-transform: uppercase;
+    border: 1px solid #007d2f;
+    font-size: 12px;
+}
+.main__address{
+    margin-bottom: 125px;
+}
+/* main end */
+/* ********************************************** */
+/* footer start */
+footer {
+    background: black;
+}
+
+footer .footer_bar {
+    padding: 100px 0;
+}
+
+footer .footer_bar h3 {
+    font-size: 25px;
+    font-family: var(--r-bold);
+    color: white;
+}
+
+footer .footer_bar p {
+    color: white;
+    font-size: 18px;
+    font-family: var(--r-regular);
+    padding-top: 53px;
+}
+
+footer .footer_bar ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 53px;
+}
+
+footer .footer_bar ul li {
+    padding-bottom: 15px;
+}
+
+footer .footer_bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: var(--r-regular);
+}
+
+footer .footer_bar .icon {
+    padding-top: 50px;
+}
+
+footer .footer_bar .icon i {
+    color: #d6a650;
+    font-size: 20px;
+}
+
+footer .footer_bar .icon a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: var(--r-regular);
+    color: white;
+}
+
+
+
+
+/* ********************************************* */
+/* media */
+
+@media (max-width:991px) {
+    .text {
+        padding-right: 15px;
+    }
+    .footer_bar .row{
+        justify-content: space-between !important;
+    }
+}
+
+@media (max-width:767px) {
+    
+    footer .footer_bar .icon a {
+        padding-left: 0;
+        font-size: 14px;  
+    }
+    footer .footer_bar ul li a {
+        font-size: 15px;
+    }
+    footer .footer_bar ul {
+        padding-top: 20px;
+    }
+    footer .footer_bar .icon {
+        padding-top: 20px;
+    }
+    footer .footer_bar .icon i {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:375px) {
+    footer .footer_bar h3 {
+        font-size: 17px;
+    }
+    footer .footer_bar ul li a {
+        font-size: 11px;
+    }
+    footer .footer_bar ul {
+        padding-top: 0;
+    }
+    footer .footer_bar ul li {
+        padding-bottom: 0;
+    }
+    footer .footer_bar p {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    footer .footer_bar {
+        padding: 50px 0;
+    }
+    .center{
+        text-align: center;
+    }
+    footer .footer_bar h3 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:280px) {
+    
+    footer .footer_bar p {
+        font-size: 10px;
+    }
+
+}
